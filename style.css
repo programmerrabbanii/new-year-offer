@@ -36,5 +36,32 @@ body{
 .bannar-content h2{
     font-size: 50px;
 }
-
+/* bannar section end */
+/* category section start */
+.category{
+    width: 500px;
+    padding: 89px;
+    margin: auto;
+    margin-top: 89px;
+    text-align: center;
+}
+.category-inner{}
+.category-inner h1{
+    color: #FF0000;
+    font-size: 50px;
+    line-height: 2;
+}
+.category-inner h4{
+    color: #FF0000;
+    line-height: 2;
+}
+.category-inner h2{
+    font-size: 30px;
+    line-height: 2;
+    
+}
+.category-inner img{
+    width: 500px;
+    margin-top: 44px;
+}
 
