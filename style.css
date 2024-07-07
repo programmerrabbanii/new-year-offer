@@ -9,3 +9,32 @@ body{
     font-family: "Merriweather", serif;
 
 }
+.bannar{
+    background-image: url(./images/Banner\ Image.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 1100px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: overlay;
+
+}
+.bannar-content{
+    color: white;
+    text-align: center;
+}
+.bannar-content h4{
+    font-size: 26px;
+    line-height: 45px;
+}
+.bannar-content h2{
+    font-size: 50px;
+}
+
+
