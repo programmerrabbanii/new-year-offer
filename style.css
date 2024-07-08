@@ -250,3 +250,45 @@ body{
     margin-left: -6px;
     border-radius: 0px 30px 30px 0px;
 }
+/* subscribe section end */
+/* footer section start */
+.foter{
+    background-color: black;
+    color: white;
+
+
+}
+.inner{
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    border-bottom: white;
+    border-width: 3px;
+
+}
+.footer-mid{
+    text-align: center;
+    margin-right: 8px;
+}
+.footer-mid .fa-brands{
+    margin-right: 8px;
+    font-size: 20px;
+    padding: 5px;
+}
+.footer-mid .fa-facebook{
+    background-color:  #3b5998;
+    border-radius: 100%;
+    color: white;
+}
+.footer-bottom{
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+}
+.fotter-right p{
+    margin-bottom: 10px;
+}
