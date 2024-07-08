@@ -185,7 +185,7 @@ body{
 
  
 .portfolio{
-    height: 400px;
+  
     width: 1100px;
     margin: auto;
     margin-top: 100px;
@@ -209,7 +209,7 @@ body{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
-    justify-content: center;
+    
 }
 /* portfolio section end */
 /* subscribe section start */
@@ -217,6 +217,36 @@ body{
     
     width: 1100px;
     margin: auto;
-    background-color: red;
+    text-align: center;
+    margin-top: 60px;
+   background-color: rgba(251, 235, 5, 0.3);
+   padding: 50px;
 
+}
+.inner-subscribe{
+    width: 699px;
+    margin: auto;
+}
+.inner-subscribe img{
+    height: 100px;
+}
+.inner-subscribe h2{
+    line-height: 2;
+}
+.inner-subscribe p{
+    margin-bottom: 10px;
+}
+
+.inner-subscribe input{
+    border: none;
+    padding: 14px 59px;
+    border-radius: 30px 0px 0px 30px;
+}
+.inner-subscribe button{
+    border: none;
+    padding: 14px 17px;
+    background-color: #FF0000;
+    color: white;
+    margin-left: -6px;
+    border-radius: 0px 30px 30px 0px;
 }
