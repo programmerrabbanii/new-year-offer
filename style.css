@@ -180,3 +180,34 @@ body{
 .comming-right img{
     margin-top: 12px;
 }
+/* comming soon section end */
+/* portfolio section start */
+
+ 
+.portfolio{
+    height: 400px;
+    width: 1100px;
+    margin: auto;
+    margin-top: 100px;
+
+}
+.portfolio h5{
+    color: #FF0000;
+}
+.portfolio h3{
+    margin-top: 6px;
+    font-size: 36px;
+
+}
+.portfolio-inner {
+    margin-top: 20px;
+}
+.portfolio-box img{
+    width: 300px;
+}
+.portfolio-inner{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    justify-content: center;
+}
